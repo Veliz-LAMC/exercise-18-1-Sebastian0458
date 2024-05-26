@@ -8,6 +8,12 @@
 <link rel="stylesheet" href="styles/speaker.css">
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script src="javascript/image_swap.js"></script>
+<script>
+    $(document).ready(function() {
+        var currentYear = new Date().getFullYear();
+        $("footer p").html("&copy; " + currentYear + ", San Joaquin Valley Town Hall, Fresno, CA 93755");
+    });
+</script>	
 </head>
 
 <body>
